@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	<title>Портфолио</title>
+	<link rel="stylesheet" href="fonts/icofont/icofont.min.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+  	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  	<link rel="stylesheet" type="text/css" href="styles.css">
+  	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="jquery.maskedinput.min.js"></script>
+	<script src="script.js"></script>
+	<script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="popup-container">
+		<div id="popup__zakaz-zvonka">
+			<div id="popup__close1"><i class="icofont-close-line-circled"></i></div>
+			<form id="popup__form1" method="post">
+					<label><h4>Как к Вам обращаться?</h4>
+					<input type="text" class="field" name="name" placeholder="Например: Андрей" required="required" maxlength="20"></label>
+					<label for="phone_number1"><h4>Ваш номер телефона</h4></label>
+					<div class="field-inline">
+					<select name="country_code" class="field short" required="required">
+						<option value="7">+7</option>
+						<option value="380">+380</option>
+						<option value="375">+375</option>
+					</select>
+					<input type="tel" class="field tel" name="phone_number" id="phone_number1" required="required"  placeholder="999 999 99 99">
+					</div>
+					<button type="submit" class="popup__zakaz-button" name="1">Заказать звонок</button>
+			</form>
+			<div class="sent-message">Мы ценим своих клиентов, ожидайте звонка!</div>
+		</div>
+		<div id="popup__more-information">
+			<div id="popup__close2"><i class="icofont-close-line-circled"></i></div>
+			<form id="popup__form2" method="post">
+					<label><h4>Как к Вам обращаться?</h4>
+					<input type="text" class="field" name="name" placeholder="Например: Андрей" required="required" maxlength="20"></label>
+					<label for="phone_number2"><h4>Ваш номер телефона</h4></label>
+					<div class="field-inline">
+					<select name="country_code" class="field short" required="required">
+						<option value="7">+7</option>
+						<option value="380">+380</option>
+						<option value="375">+375</option>
+					</select>
+					<input type="tel" class="field tel" name="phone_number" id="phone_number2" required="required"  placeholder="999 999 99 99">
+					</div>
+					<label><h4>Электронная почта для связи</h4>
+					<input type="email" class="field" name="email" placeholder="Например: ivan@mail.ru"></label>
+					<button type="submit" class="popup__zakaz-button" name="2">Заказать звонок</button>
+			</form>
+			<div class="sent-message">Мы ценим своих клиентов, ожидайте звонка!</div>
+		</div>
+	</div>
+	<header>
+		<a name="zakaz"></a>
+		<div class="fixed-container">
+			<div class="header__burger gradient"><i id="header__burger-icon" class="icofont-navigation-menu"></i></div>
+			<nav>		
+				<a href="tel:+79278056853" class="nav__tel" >+7 (927) 805-68-53</a>
+				<a class="nav__zakaz">Заказать звонок</a>
+				<a href="#zakaz" class="nav__zakaz_mob"><span><i class="icofont-ui-call"></i></span></a>
+				<a href="#uslugi" class="hidden first-line" title="Мои услуги">Услуги</a>
+				<a href="#portfolio" class="hidden marked" title="Мое портфолио">Портфолио</a>
+				<a href="#cost" class="hidden" title="Стоимость услуг">Стоимость</a>
+			</nav>
+		</div>
+	</header>	
+<main>
+	<div id="main-block">
+		<div class="fly-tag main-block_div1 gradient">&lt;div&gt;</div>
+		<div class="fly-tag main-block_div2 gradient">&lt;div&gt;</div>
+		<div class="fly-tag main-block_skobki gradient">{ }</div>
+		<div class="fly-tag main-block_hash gradient">#</div>
+		<div class="fly-tag main-block_code gradient">&lt;/&gt;</div>
+				<svg viewBox="0 0 814 430">
+					<defs>
+					<linearGradient id="PSgrad_0" x1="0%" x2="22.495%" y1="97.437%" y2="0%">
+					  <stop offset="0%" stop-color="rgb(255,143,90)" stop-opacity="1" />
+					  <stop offset="99%" stop-color="rgb(255,47,150)" stop-opacity="1" />
+					</linearGradient>
+
+					</defs>
+					<path fill-rule="evenodd"  fill="rgb(96, 85, 196)"
+					 d="M394.819,32.771 C501.505,-8.891 602.187,-9.019 686.362,22.255 C770.754,53.275 838.641,115.698 884.752,193.274 C928.999,271.621 928.952,355.775 892.815,423.850 C856.178,492.940 795.199,545.029 712.103,582.204 C668.095,600.922 621.837,613.746 563.031,621.617 C505.000,629.373 434.420,632.178 359.641,628.177 C211.243,620.480 44.927,584.346 9.853,502.841 C-10.023,462.369 2.453,415.976 27.165,369.289 C52.282,322.533 89.635,275.483 128.853,232.124 C168.477,188.696 209.966,148.959 252.680,115.260 C295.800,81.492 340.143,53.761 394.819,32.771 L394.819,32.771 Z"/>
+					<path fill="url(#PSgrad_0)"
+					 d="M394.819,32.771 C501.505,-8.891 602.187,-9.019 686.362,22.255 C770.754,53.275 838.641,115.698 884.752,193.274 C928.999,271.621 928.952,355.775 892.815,423.850 C856.178,492.940 795.199,545.029 712.103,582.204 C668.095,600.922 621.837,613.746 563.031,621.617 C505.000,629.373 434.420,632.178 359.641,628.177 C211.243,620.480 44.927,584.346 9.853,502.841 C-10.023,462.369 2.453,415.976 27.165,369.289 C52.282,322.533 89.635,275.483 128.853,232.124 C168.477,188.696 209.966,148.959 252.680,115.260 C295.800,81.492 340.143,53.761 394.819,32.771 L394.819,32.771 Z"/>
+					</svg>
+				<div class="main-block__photo"></div>
+				<div class="fixed-container">
+					<div class="main-block__name">Андрей Мулгачев</div>
+					<div class="main-block__profession">Frontend-разработчик и веб-верстальщик</div>
+					<form action="#uslugi" title="Узнать больше"><button class="more-button" type="submit">Узнать больше</button></form>
+				</div>
+	</div>
+	<a name="uslugi"></a>
+	<div id="uslugi">
+		<div class="fixed-container">
+			<div class="title-page">Что я делаю</div>
+			<div class="uslugi__flex-container">
+				<div class="uslugi__flex-container_items"><div class="uslugi__spisok landing_pic"></div>Вёрстка лендинг–страниц и&nbsp;сайтов любой сложности</div>
+				<div class="uslugi__flex-container_items"><div class="uslugi__spisok devices_pic"></div>Адаптивная вёрстка под&nbsp;все браузеры и&nbsp;устройства</div>
+				<div class="uslugi__flex-container_items"><div class="uslugi__spisok programming_pic"></div>Frontend–разработка и&nbsp;программирование</div>
+				<div class="uslugi__flex-container_items"><div class="uslugi__spisok coding_pic"></div>Исправление и&nbsp;доработка существующей вёрстки</div>
+			</div>
+			<form action="#cost" title="Узнать стоимость"><button class="more-button" type="submit">Узнать стоимость</button></form>
+		</div>
+	</div>
+	<a name="portfolio"></a>
+	<div id="portfolio">
+		<div class="fixed-container">
+			<div class="title-page">Примеры моих работ</div>
+			<div class="portfolio__gallery">
+				  <section class="multiple-items slider">
+					    <div><img src="img/slider1.png">Сайт психолога Веры Антоновой</div>
+					    <div><img src="img/slider2.png">Сайт магазина детской одежды</div>
+					    <div><img src="img/slider3.png">Сайт магазина «Рыболов»</div>
+					    <div><img src="img/slider4.png">Блог путешественника</div>
+				  </section>
+				<div class="arrow"></div>
+			</div>
+			<a class="more-button zakaz-button" type="submit">Заказать проект</a>
+		</div>
+	</div>
+	<a name="cost"></a>
+	<div id="cost">
+		<div class="fly-tag cost_div1">&lt;div&gt;</div>
+		<div class="fly-tag cost_skobki">{ }</div>
+		<div class="fly-tag cost_hash">#</div>
+		<div class="fly-tag cost_code">&lt;/&gt;</div>
+		<div class="fixed-container">
+			<div class="cost__text">Адаптивная вёрстка под&nbsp;все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</div>
+			<div class="cost__additional-text">* Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются  индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.</div>
+		</div>
+	</div>
+</main>
+	<footer>
+		<div class="fixed-container">
+			<div class="footer__flex-container">	
+				<div class="footer__column1">
+					<a href="#uslugi" title="Мои услуги">Услуги</a>
+					<a href="#portfolio" title="Мое портфолио">Портфолио</a>
+					<a href="#cost" title="Стоимость услуг">Стоимость</a>
+				</div>
+				<div class="footer__column2">
+					<a href="tel:+79278056853"><i class="icofont-ui-call"></i> +7 (927) 805-68-53</a>
+					<a href="mailto:andreyka27@mail.ru"><i class="icofont-envelope"></i> andreyka27@mail.ru</a>
+				</div>
+				<div class="footer__column3">
+					<a class="footer__zakaz-button">Заказать звонок</a>
+					<a href="https://vk.com/mulgachev" target="_blank" class="footer__social vk"></a>
+					<a href="https://www.facebook.com/profile.php?id=100001006213885" target="_blank" class="footer__social fb"></a>
+					<a href="https://twitter.com/kremlinrussia" target="_blank" class="footer__social twitter"></a>
+					<a href="https://www.instagram.com/putin.life/" target="_blank" class="footer__social inst"></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__copyright"><small>© Мулгачев Андрей, 2019</small></div>
+	</footer>	
+</body>
+</html>
